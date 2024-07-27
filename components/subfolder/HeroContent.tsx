@@ -28,13 +28,13 @@ const HeroContent = () => {
             className='mt-8'
             >   
                 <h1 className='text-white text-6xl font-bold mb-2'>👋 My name is </h1>
-                <span className='px-2 md:px-0 text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Sathya Padmanabhan </span>
+                <span className='text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Sathya Padmanabhan </span>
 
             </motion.div>
 
             <motion.div
             variants={slideInFromLeft(0.5)}
-            className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
+            className='flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto'
             >
                 <span>
                 Providing
