@@ -58,8 +58,9 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm/"
-        />
+          >
+            <source src='/encryption.webm' type='video/webm' />
+          </video>
       </div>
     </div>
   );
