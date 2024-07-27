@@ -35,13 +35,13 @@ const About = () => {
                 <div className='flex flex-col text-lg space-y-5 text-white'>
                     <span>👋 Hey there! Thanks for checking out the website!</span>
 
-                    <span>I'm an undergraduate at Rice University 🦉 majoring in Computer Science 💻 and minoring in Business 💼 and Financial Computation and Modeling. 📈</span>
+                    <span>I&apos;m an undergraduate at Rice University 🦉 majoring in Computer Science 💻 and minoring in Business 💼 and Financial Computation and Modeling. 📈</span>
 
-                    <span>I'm from Chandler, Arizona 🌵, and I am super passionate software development 🖥️, machine learning 🤖, and quant 📊.</span>
+                    <span>I&apos;m from Chandler, Arizona 🌵, and I am super passionate software development 🖥️, machine learning 🤖, and quant 📊.</span>
 
                     <span>I also love startups 🚀 and entrepreneurship💡, which is what I aim to pursue in the future.</span>
 
-                    <span>Outside of classes and coding, I love to speedcube 🕒. I rank top 8% globally 🌎 and love to compete. I think it's a great way to have some fun (and it looks pretty cool too.)</span>
+                    <span>Outside of classes and coding, I love to speedcube 🕒. I rank top 8% globally 🌎 and love to compete. I think it&apos;s a great way to have some fun (and it looks pretty cool too.)</span>
 
                     <span>Other than that, I love space and occassionally go stargazing 🌠 when the skies are clear. I also play soccer ⚽ and squash 🌑 (casually) and read 📖 a bit in my free time.</span>
                 </div>
