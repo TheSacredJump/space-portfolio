@@ -27,7 +27,7 @@ const HeroContent = () => {
             variants={slideInFromTop}
             className='mt-8'
             >   
-                <h1 className='text-white text-6xl font-bold mb-2'>👋 My name is </h1>
+                <h1 className='text-white text-5xl md:text-6xl font-bold mb-2'>👋 My name is </h1>
                 <span className='text-5xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> Sathya Padmanabhan </span>
 
             </motion.div>
