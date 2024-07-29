@@ -30,6 +30,15 @@ const Projects = () => {
                 code="https://github.com/TheSacredJump/bankingapp"
             />
             <ProjectCard
+                src="/SumzAI.png"
+                title="Sumz - AI Article Summarizer"
+                description="Sumz is an AI article summarizer built with React, TailwindCSS, Redux, and Summize: an open-source api on Rapidapi
+                that allows article and document summarization. Sumz is a simple to use application, with local storage, recent history, and 
+                error handling."
+                demo="https://animated-creponne-5435d4.netlify.app/"
+                code="https://github.com/TheSacredJump/SumzAI"
+            />
+            <ProjectCard
                 src="/StockFin.png"
                 title="StockFin - AI Financial Advisor"
                 description="StockFin is an AI financial advisor looking to help people who want to invest, get started.
