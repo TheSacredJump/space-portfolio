@@ -20,6 +20,16 @@ const Projects = () => {
                 code=""
             />
             <ProjectCard
+                src="/LiveDocs.png"
+                title="LiveDocs - Google Docs Clone"
+                description="LiveDocs is a Google Docs clone builrd with React and Next.JS. LiveDocs integrates 
+                Clerk for authentication, some ShadCn components for UI, and utilizes LiveBlocks for live, collaborative features.
+                LiveDocs is protected by Sentry and offers full-fledged functionality from a vast array of markdown tools, live collaboration,
+                 to mobile responsiveness."
+                demo="https://live-docs-azure.vercel.app/"
+                code="https://github.com/TheSacredJump/LiveDocs"
+            />
+            <ProjectCard
                 src="/Horizon.png"
                 title="Horizon - Banking Application"
                 description="Horizon is a secure banking application built with React and Next.JS. 
