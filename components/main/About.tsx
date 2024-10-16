@@ -43,7 +43,7 @@ const About = () => {
 
                     <span>Outside of classes and coding, I love to speedcube 🕒. I rank top 3% globally 🌎 and love to compete. I think it&apos;s a great way to have some fun (and it looks pretty cool too.)</span>
 
-                    <span>I also love hackathons 💻. I've won 2nd place overall at HackHarvard 🏆, the accessibility track at MHacks 🪄, and the Adobe Challenge at HackRice 🅰️.  </span>
+                    <span>I also love hackathons 💻. I&apos;ve won 2nd place overall at HackHarvard 🏆, the accessibility track at MHacks 🪄, and the Adobe Challenge at HackRice 🅰️.  </span>
 
                     <span>Other than that, I love space and occassionally go stargazing 🌠 when the skies are clear. I also play soccer ⚽ and club squash 🌑 and read 📖 a bit in my free time.</span>
                 </div>
