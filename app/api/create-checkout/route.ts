@@ -1,6 +1,7 @@
 // app/api/create-checkout/route.ts
 import { NextResponse } from 'next/server';
 
+// Specifically allow POST method
 export async function POST(req: Request) {
     try {
         const { amount, currency } = await req.json();
@@ -23,4 +24,14 @@ export async function POST(req: Request) {
         console.error('Error creating checkout:', error);
         return NextResponse.json({ error: 'Failed to create checkout' }, { status: 500 });
     }
+}
+
+// Add OPTIONS method to handle preflight requests
+export async function OPTIONS(req: Request) {
+    return new NextResponse(null, {
+        status: 200,
+        headers: {
+            'Allow': 'POST'
+        },
+    });
 }
