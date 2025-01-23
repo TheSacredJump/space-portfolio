@@ -9,20 +9,22 @@ const Quikflip = () => {
   async function handleCryptoPayment() {
     try {
         setLoading(true);
-        // Call your own backend instead of myquikflip.com directly
-        const response = await fetch('/api/create-checkout', {
+        const response = await fetch('https://myquikflip.com/api/checkout', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'X-API-Key': 'qf_d3a25526a678bc03ad6886a87072875861d99c50693e563fbc1a338e0a58dc76'
             },
+            mode: 'cors',  // Add this
+            credentials: 'omit',  // Add this
             body: JSON.stringify({
                 amount: "1",
                 currency: "USD"
             })
         });
-  
+
         const data = await response.json();
-      
+        
         if (data.charge && data.charge.hosted_url) {
             setPaymentStatus('pending');
             window.location.href = data.charge.hosted_url;
@@ -32,7 +34,7 @@ const Quikflip = () => {
     } finally {
         setLoading(false);
     }
-  }
+}
 
   // Check payment status every few seconds
   useEffect(() => {
