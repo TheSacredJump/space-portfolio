@@ -9,28 +9,28 @@ const Quikflip = () => {
   async function handleCryptoPayment() {
     try {
         setLoading(true);
-      const response = await fetch('https://myquikflip.com/api/checkout', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'X-API-Key': 'qf_d3a25526a678bc03ad6886a87072875861d99c50693e563fbc1a338e0a58dc76'
-        },
-        body: JSON.stringify({
-          amount: "1",
-          currency: "USD"
-        })
-      });
+        // Call your own backend instead of myquikflip.com directly
+        const response = await fetch('/api/create-checkout', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                amount: "1",
+                currency: "USD"
+            })
+        });
   
-      const data = await response.json();
+        const data = await response.json();
       
-      if (data.charge && data.charge.hosted_url) {
-        setPaymentStatus('pending');
-        window.location.href = data.charge.hosted_url;
-        setLoading(false);
-      }
+        if (data.charge && data.charge.hosted_url) {
+            setPaymentStatus('pending');
+            window.location.href = data.charge.hosted_url;
+        }
     } catch (error) {
-      setLoading(false);
-      console.error('Error:', error);
+        console.error('Error:', error);
+    } finally {
+        setLoading(false);
     }
   }
 
