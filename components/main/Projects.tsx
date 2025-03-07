@@ -11,11 +11,65 @@ const Projects = () => {
         </h1>
         <div className='h-full w-full flex flex-col lg:grid grid-cols-2 lg:grid-cols-3 gap-10 px-10'>
             <ProjectCard
+                src="/hira-favicon.png"
+                title="Hira - In Progress"
+                description="Hira is an AI agent that automatically applies to jobs for you. This project includes agentic AI use, advancding parsing and proxy usage, etc."
+                demo="https://www.hirajobs.com"
+                code=""
+            />
+            <ProjectCard
+                src="/latextia.png"
+                title="Latextia"
+                description="Latextia is an open source AI tool that converts handwritten notes to LaTeX. This project has grown to over 10K users."
+                demo="https://www.latextia.com"
+                code="https://github.com/TheSacredJump/latextia"
+            />
+            <ProjectCard
+                src="/quikflip.png"
+                title="QuikFlip"
+                description="QuikFlip is a tool that allows any business to accept crypto payments at their store with a simple API. Received $100k grant for the project. Three businesses use QuikFlip to accept crypto payments today."
+                demo="https://myquikflip.com"
+                code="https://github.com/TheSacredJump/myquikflip"
+            />
+            <ProjectCard
+                src="/bunkmate.png"
+                title="Bunkmate"
+                description="Bunkmate allows students to find off campus housing in the Rice University area. Almost all Rice students use Bunkmate to find housing."
+                demo="https://bunkmate.rice.edu"
+                code="https://github.com/rice-apps/bunkmate-but-better"
+            />
+            <ProjectCard
+                src="/filmi.png"
+                title="Filmi"
+                description="Filmi is an app that allows you to create groups to rate and share movies with your freinds."
+                demo="https://filmi-phi.vercel.app/"
+                code="https://github.com/TheSacredJump/filmi"
+            />
+            <ProjectCard
+                src="/garuda.jpg"
+                title="Garuda"
+                description="Garuda is a drone footage analysis tool that assesses damage during the aftermath of hurricanes. Won 2nd place at HackHarvard 2024."
+                demo=""
+                code="https://github.com/TheSacredJump/garuda"
+            />
+            <ProjectCard
+                src="/signverse.png"
+                title="SignVerse"
+                description="SignVerse is an AI bi-directional translation tool that translates between sign language and text. It also includes an AI tutor with 3D design. Won MHacks 2024 Accessibility Track"
+                demo=""
+                code="https://github.com/TheSacredJump/signverse-mhacks2024"
+            />
+            <ProjectCard
+                src="/owltrack.png"
+                title="OwlTrack"
+                description="OwlTrack is an AI 4-year course and career planner for students in college. It uses LLMs and vector distance algorithms to help students find the best path for their career. Won HackRice 2024 Adobe Challenge."
+                demo=""
+                code="https://github.com/TheSacredJump/OwlTrack-HackRice14"
+            />
+            <ProjectCard
                 src="/Servery.png"
-                title="Servery - In Progress"
-                description="Servery is an all-in-one recipe and food app built with the MERN stack, which includes 
-                MongoDB, Express, React Native, and Node.js. Servery offers personalized recipe recommendations through ML and a 
-                vast social network of foodies and culinary influencers. This project is currently being built and is set to launch in January 2025!"
+                title="Servery"
+                description="Servery is an AI recipe app that allows you to search for recipes by ingredients and get curated food suggestions based on your preferences. It also is a social network for foodies to share recipes and get feedback from others."
                 demo=""
                 code=""
             />

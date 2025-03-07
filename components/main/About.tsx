@@ -37,7 +37,7 @@ const About = () => {
 
                     <span>I&apos;m an undergraduate at Rice University 🦉 majoring in Computer Science 💻 and minoring in Business 💼 and Financial Computation and Modeling. 📈</span>
 
-                    <span>I&apos;m from Chandler, Arizona 🌵, and I am super passionate about software development 🖥️, machine learning 🤖, and quant 📊.</span>
+                    <span>I&apos;m from Chandler, Arizona 🌵, and I am super passionate about software development 🖥️, machine learning 🤖, and space tech 🌌.</span>
 
                     <span>I also love startups 🚀 and entrepreneurship💡, which is what I aim to pursue in the future.</span>
 

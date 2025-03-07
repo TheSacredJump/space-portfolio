@@ -65,7 +65,7 @@ const Footer = () => {
                             <span className="text-[15px] ml-[6px]">Email Me</span>    
                         </p>
                     </a>
-                    <a href="/Sathya_p_Resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="/sathya-resume.pdf" target="_blank" rel="noopener noreferrer">
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <span className="text-[15px] ml-[6px]">Resume</span>    
                         </p>
